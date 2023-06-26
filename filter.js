@@ -5,6 +5,6 @@ const filter = numbers.reduce((a, b) => {
     a.push(b);
   }
   return a;
-}, []);
+},[]);
 
-console.log(filter);
+console.log(filter); 
